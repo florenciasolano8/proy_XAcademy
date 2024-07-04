@@ -1,0 +1,32 @@
+body{
+    font-family: "Gill Sans", "Gill Sans MT", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e4eef8;
+}
+
+.wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color:#343f44;
+    font-size: 28px;
+}
+.logo i{
+    color:#2e86fd;
+    font-size: 35px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
